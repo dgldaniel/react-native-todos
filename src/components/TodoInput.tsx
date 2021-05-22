@@ -40,7 +40,7 @@ export function TodoInput({ addTask, isDarkTheme }: TodoInputProps) {
             : styles.input
         }
         placeholder="Adicionar novo todo..."
-        placeholderTextColor={isDarkTheme ? "#A09CB1" : undefined}
+        placeholderTextColor={isDarkTheme ? "#A09CB1" : "#767577"}
         returnKeyType="send"
         onChangeText={setTask}
         value={task}
